@@ -38,7 +38,8 @@ LungAttn/pre-processing/pm_pack.py
 ```
 helps you to store spectrograms and corresponding labels into `.p` file.
 
-##Data Augmentation
+## Data Augmentation
+
 To eliminate the imbalanced problem of ICBHI 2017 dataset, we implement mixup data augmentation method. 
 ![image](./picture/mixup.png)
 
