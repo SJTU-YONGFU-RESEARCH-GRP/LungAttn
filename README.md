@@ -6,7 +6,7 @@ This repository contains the LungAttn for lung sound deep learning classificatio
 
 * [LungAttn](#LungAttn)
   * [Pre-processing](#Pre-processing)
-  * [Data Augmentation](#Data Augmentation)
+  * [Augmentation](#Augmentation)
   * [Train](#Train)
   * [Performance](#Performance)
 * [Author](#Author)
@@ -38,7 +38,7 @@ LungAttn/pre-processing/pm_pack.py
 ```
 helps you to store spectrograms and corresponding labels into `.p` file.
 
-## Data Augmentation
+## Augmentation
 
 To eliminate the imbalanced problem of ICBHI 2017 dataset, we implement mixup data augmentation method. 
 ![image](./picture/mixup.png)
